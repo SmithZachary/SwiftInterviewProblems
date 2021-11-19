@@ -1,8 +1,8 @@
 import UIKit
 import Foundation
-
+var section: String
 //MARK: - How to use
-//Below are questions I have found through experience or the internet, I put it in playgrounds so you can see the quesitons and answers in action, to access certain features take away the print statement to see why the code wont work. hope this helps feel free to add to it, follow me on gitgub.com/smithzachary or instagram/twitter @spacemulecode
+//Below are questions I have found through experience or the internet, I put it in playgrounds so you can see the quesitons and answers in action,(in no specifc order) to access certain features take away the print statement to see why the code wont work. hope this helps feel free to add to it, follow me on gitgub.com/smithzachary or instagram/twitter @spacemulecode
 //MARK: - Difference between var and let
 
 var a = 3
@@ -10,6 +10,74 @@ let b = 6
  a = 6
 // setting b again is invalid, remove the print statemnt to see why
 print("b = 4")
+
+//MARK: - Break
+print("-------------")
+section = "Loops"
+print(section)
+print("-------------")
+//MARK: - Break
+
+//MARK: - For In Loops, While Loops
+for number in 1...5 {
+    //you should probably understand how i am calling number in the print statement below using a \
+    print("Hello,\(number)")
+}
+//if you just want to return what is in the print statement and not print the numbers you can use _
+for _ in 1...5 {
+    print("Hello")
+}
+
+//further example
+
+let fruits = ["apple", "pear", "orange"]
+let contacts = ["Adam": 123456789, "James": 987654321, "Amy": 912374354]
+let word = "Supercalifragilisticexpialdocious"
+let halfOpenRange = 1..<5
+let closedRange = 1...5
+ //runs through the array of fruits
+for fruit in fruits{
+    //set vs array sets wont give a specifc order an array will
+    print(fruit)
+    
+}
+for person in contacts {
+    print(person.key)
+}
+
+for letter in word {
+    print(letter)
+}
+
+for number in halfOpenRange {
+    print(number)
+}
+for number in closedRange {
+    print(number)
+}
+for _ in halfOpenRange {
+    print("Loop is running")
+}
+ //while loops\
+
+//point here is while loops will run till a condition isnt true any more, they can be dangerious if they never are false
+
+//while true {
+//    //adding anything here will crash your code because true is always true and it will never stop, go ahead try it
+//    //print("crash")
+//}
+
+
+
+
+//MARK: - Break
+
+
+print("-------------")
+section = "Optionals"
+print(section)
+print("-------------")
+//MARK: - Break
 
 //MARK: - Write Three Ways to unwrap an optional
 
@@ -39,6 +107,12 @@ var someBStr: String?
 print("let unwrapped3 = someStr!")
 
 //MARK: - STRUCT and CLASS
+//MARK: - Break
+print("-------------")
+section = "Structs and Class"
+print(section)
+print("-------------")
+//MARK: - Break
 //whats the difference? Structs are value types, classes are reference types
 //value types(struct, enum) get copied as a new copy when referenced, reference types(class) do not
 //https://abhimuralidharan.medium.com/difference-between-a-struct-and-a-class-in-swift-53e08df73714 good article on this
@@ -93,6 +167,12 @@ print(tenEighty.frameRate)
 
 
 //MARK: - Whats the value of  var len and why?
+//MARK: - Break
+print("-------------")
+section = "Array"
+print(section)
+print("-------------")
+//MARK: - Break
 var array1 = [1,2,3,4,5]
 var array2 = array1
 array2.append(6)
@@ -140,6 +220,12 @@ enum AssociatedEnum {
 
 
 //MARK: - INOUT , what is an in and out pararmeter? how doyou use & in this parameter?
+//MARK: - Break
+print("-------------")
+section = "INOUT"
+print(section)
+print("-------------")
+//MARK: - Break
 
 //If you use an extra “inout” keyword in a parameter, the original value passed in the parameter will be changed, once the function is executed.
 func swapTwoInts(_ a: inout Int, _ b: inout Int) {
@@ -158,6 +244,12 @@ print("someInt is now \(someInt), and anotherInt is now \(anotherInt)")
 //Once executed, you can see that the original values have been changed.
 
 //MARK: - MVC Patter or any other design pattern, why do you use it?
+//MARK: - Break
+print("-------------")
+section = "MVC Pattern"
+print(section)
+print("-------------")
+//MARK: - Break
 
 //mvc User -> action -> Controller
 //Controller -> notifies -> Model
