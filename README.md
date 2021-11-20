@@ -2,7 +2,7 @@
 ## Two Parts -- Swift Playgrounds & Read Me
 # Swift Interview Problems in Playground
 you may have to copy and paste the code into a new playground git oesnt play nice with playground files
-
+## ***Update, added a actual xcode project, with multiple swift playgrounds broken down by category, makes it easier to clone and read!***
 A compilation of general interview questions for a jr. dev in swift. 
 It's made in swift playground so you can hopefully see some of the code working
 a little better than on a website in text. It is a work in product, feel free
