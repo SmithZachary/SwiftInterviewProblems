@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		B6249744274AEEBC00033BF5 /* Tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B6249745274AF4B400033BF5 /* Fizz_Buzz_FizzBuzz.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Fizz_Buzz_FizzBuzz.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6DDA78D2748BBB0005E239A /* SwiftInterviewQuestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftInterviewQuestions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DDA7902748BBB0005E239A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6DDA7922748BBB0005E239A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -164,6 +165,7 @@
 				B6DDA7CA2748BD72005E239A /* ArrayEnumDictSet.playground */,
 				B6DDA7CB2748BDC4005E239A /* InOut.playground */,
 				B6249744274AEEBC00033BF5 /* Tuples.playground */,
+				B6249745274AF4B400033BF5 /* Fizz_Buzz_FizzBuzz.playground */,
 			);
 			path = SwiftPlaygroundExamples;
 			sourceTree = "<group>";
