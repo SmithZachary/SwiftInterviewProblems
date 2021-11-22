@@ -52,6 +52,12 @@ var cc = aa
 aa = bb
 bb = cc
 
+// you can add chatracters together with the "+" symbol
+
+var w = "space"
+var x = "outer"
+var y = x + w
+print(y)
 
 //MARK: - Will op1 + op2 + op3 be valid?
 let op1: Int = 1

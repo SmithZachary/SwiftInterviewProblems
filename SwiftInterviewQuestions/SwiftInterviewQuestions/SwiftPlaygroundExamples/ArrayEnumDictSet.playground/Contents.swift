@@ -66,7 +66,7 @@ func excersise() {
 //
 //}
 //
-//print(excersise2())
+//excersise2()
 
 
 //MARK: - In Swift enumerations, whats the differnce between raw calues and associated values?
