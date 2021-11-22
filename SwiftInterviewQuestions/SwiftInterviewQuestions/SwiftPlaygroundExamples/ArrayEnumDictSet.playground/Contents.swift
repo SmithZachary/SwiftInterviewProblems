@@ -18,15 +18,56 @@ var len = array1.count
 //arrays are value type so when you call a new array it will create a new copy of that array
 print(len)
 
-//MARK: - Will op1 + op2 + op3 be valid?
-let op1: Int = 1
-let op2: UInt = 2
-let op3: Double = 3.34
-//Swift doesn’t define any implicit cast between data types, even if they are conceptually almost identical (like UInt and Int).
+// Given the array of numbers creat another array called computerNumbers. computedNumbers should multiply each element in the numbers array by the next element. The last element shouldbe multiplied by the first
+//e.g. if numbers was equat to [3,1,4,2] -- computedNumbers should equal [3x1. 1x4. 4x2. 2x3] which is [3, 4, 8, 6]
+// Hints --
+// multiplication is done using a * not a x
+// you shold not have to do the calculations yourself, it should be done by code
+// you are NOT allowed to type the numbers 45, 73, 195 or 53 in your solution code
+//computerNumbers should be crated as a variable named exactly as you see in the print statement. Do not change the rest of the code.
 
-//To fix the error, rather than casting, an explicit conversion is required. In the sample code, all expression operands must be converted to a common same type, which in this case is Double:
-print("var resultOne = op1 + op2 + op3")
-var resultTwo = Double(op1) + Double(op2) + op3
+//there are multiple ways to solve this, try declaring each position of the array as a variable then try it a different way and wrap it in a for loop -- try it beofre you scroll down for the answers-- if you solved it a different way let me know!
+
+func excersise() {
+    let numbers = [45, 73, 195, 53]
+    
+  //  let computerNumbers = //put code here
+     
+  //  print(computerNumbers)
+}
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+//answer
+//func excersise2() {
+//    let numbers = [45, 73, 195, 53]
+//
+//    //Create a new array called computedNumbers
+//    var computedNumbers = [
+//      numbers[0] * numbers[1],
+//      numbers[1] * numbers[2],
+//      numbers[2] * numbers[3],
+//      numbers[3] * numbers[0]
+//    ]
+//
+//
+//    print(computedNumbers)
+//
+//}
+//
+//print(excersise2())
+
 
 //MARK: - In Swift enumerations, whats the differnce between raw calues and associated values?
 
