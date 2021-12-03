@@ -53,3 +53,25 @@ print(alsoTenEighty.frameRate)
 print(tenEighty.frameRate)
 //Because classes are reference types, tenEighty and alsoTenEighty actually both refer to the same VideoMode instance. Notice that tenEighty.frameRate changed when we asigned 30 to alsoTenEighty.frameRate)
 
+protocol FullNameable {
+    var fullName: String { get }
+}
+
+struct Lecturer: FullNameable {
+    var fullName: String
+}
+
+let lecturer = Lecturer(fullName: "Gift")
+
+//Second Implementation
+struct Student: FullNameable {
+  let firstName: String
+  let middleName: String
+  let lastName: String
+  
+  var fullName: String {
+    return "\(firstName) \(middleName) \(lastName)"
+  }
+}
+
+let me = Student(firstName: "Abel", middleName: "Agoi", lastName: "Adeyemi")

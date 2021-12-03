@@ -40,6 +40,8 @@
 		B6249744274AEEBC00033BF5 /* Tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6249745274AF4B400033BF5 /* Fizz_Buzz_FizzBuzz.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Fizz_Buzz_FizzBuzz.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6249746274BEFE400033BF5 /* Constants.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Constants.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B6249782274DEDE600033BF5 /* GettersAndSetters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GettersAndSetters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B6C1D675274F2F330033A254 /* raywenderlichProblems.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = raywenderlichProblems.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B6DDA78D2748BBB0005E239A /* SwiftInterviewQuestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftInterviewQuestions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DDA7902748BBB0005E239A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6DDA7922748BBB0005E239A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -168,6 +170,8 @@
 				B6249744274AEEBC00033BF5 /* Tuples.playground */,
 				B6249745274AF4B400033BF5 /* Fizz_Buzz_FizzBuzz.playground */,
 				B6249746274BEFE400033BF5 /* Constants.playground */,
+				B6249782274DEDE600033BF5 /* GettersAndSetters.playground */,
+				B6C1D675274F2F330033A254 /* raywenderlichProblems.playground */,
 			);
 			path = SwiftPlaygroundExamples;
 			sourceTree = "<group>";
