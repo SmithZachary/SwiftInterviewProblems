@@ -67,8 +67,26 @@ func excersise() {
 //}
 //
 //excersise2()
+//use the array duplicates below and pull out the numbers sorted and with no duplicates. This question was asked to me on a interview. A big trend I have seen is questions pertaining to manipulating arrays.
 
+var duplicates = [1,1,1,3,4,7]
+//answer below ** note there are a lot of wways to do this **
+var nonDuplicares = Set(duplicates)
+print(nonDuplicares)
 
+duplicates.sort(by: >)
+//for duplicate in duplicates {
+//    duplicate.
+//}
+var newArray: [Int] = []
+var previous: Int = 1
+for duplicate in duplicates {
+    if  duplicate != previous {
+        newArray.append(duplicate)
+        previous = duplicate
+    }
+}
+print(newArray)
 //MARK: - In Swift enumerations, whats the differnce between raw calues and associated values?
 
 //Raw values are used to associate constant (literal) values to enum cases. The value type is part of the enum type, and each enum case must specify a unique raw value (duplicate values are not allowed).
