@@ -28,7 +28,7 @@ print(a)
 // without touching any of the existing code can you write 3 lines of code to switch around the values held inside the two variables a and b? *** and you cannot use any numbers in your code ex. you cant just write aa = 8 and bb = 5
 var aa = 5
 var bb = 8
-
+//try (aa, bb) = (bb, aa) for a shorter way to do it
 //write your code here
 //dont change any of the existing code
 
